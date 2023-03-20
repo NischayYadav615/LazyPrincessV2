@@ -386,6 +386,7 @@ async def get_shortlink(link):
     url = f'https://Clicksfly.com/api'
     params = {'api': URL_SHORTNER_WEBSITE_API,
               'url': link,
+              'format': 'json'
               }
               
 try:
